@@ -1,0 +1,30 @@
+{
+ "kind": "character",
+ "new_weight": 4,
+ "entries": [
+  {
+   "name": "Lady Jamandi Aldori",
+   "weight": 1
+  },
+  {
+   "name": "Oleg and Svetlana Leveton",
+   "weight": 1
+  },
+  {
+   "name": "The Stag Lord",
+   "weight": 1
+  },
+  {
+   "name": "Tartuccio",
+   "weight": 1
+  },
+  {
+   "name": "Kressle",
+   "weight": 1
+  },
+  {
+   "name": "The Sootscale kobolds",
+   "weight": 1
+  }
+ ]
+}

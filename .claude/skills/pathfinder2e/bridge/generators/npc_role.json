@@ -1,0 +1,18 @@
+{ "id": "companion.kingmaker.npc_role", "title": "Stolen Lands NPC Role", "type": "list_d100", "dice": "1d100",
+  "note": "generate:character (mode conjunction). On any NEW CHARACTER result the engine rolls this AND the AC Character Crafter; flesh the NPC from setting-canon factions + the current zone/scene. Stat on the fly via the NPC Statistics oracle in PF2e units, scaled by the Diminisher.",
+  "entries": [
+    {"min": 1,  "max": 10,  "value": "Bandit / outlaw — preys on the routes; flees, regroups, informs to survive"},
+    {"min": 11, "max": 20,  "value": "Frontier settler / homesteader — hard-pressed, wants safety and a fair charter"},
+    {"min": 21, "max": 30,  "value": "Hunter / trapper / ranger — knows the wilds, the lairs, and the rumors"},
+    {"min": 31, "max": 40,  "value": "Merchant / trader / caravaneer — profit, protection, and trade routes"},
+    {"min": 41, "max": 48,  "value": "Soldier / mercenary / sellsword — coin and a cause; loyalty for sale"},
+    {"min": 49, "max": 56,  "value": "Brevic noble / official / envoy — status, House interest, court calculation"},
+    {"min": 57, "max": 63,  "value": "Aldori swordlord / duelist — honor, the blade, Rostland's pride"},
+    {"min": 64, "max": 70,  "value": "Priest / cultist / zealot — a god's work (Erastil, Gorum, Lamashtu, the Bloom)"},
+    {"min": 71, "max": 77,  "value": "Fey / First World being — alien logic; keeps bargains to the letter"},
+    {"min": 78, "max": 83,  "value": "Nomen centaur / wilderness tribesperson — proud; respect earns alliance"},
+    {"min": 84, "max": 88,  "value": "Tiger Lord barbarian — strength, raid, and Gorum's favor"},
+    {"min": 89, "max": 92,  "value": "Pitaxian agent / spy / propagandist — Irovetti's deniable hand"},
+    {"min": 93, "max": 96,  "value": "Scholar / sage / cartographer — lore, maps, the land's buried history"},
+    {"min": 97, "max": 100, "value": "Monster-kin leader (kobold / lizardfolk / boggard / troll-kin) — a rival little realm"}
+  ] }
