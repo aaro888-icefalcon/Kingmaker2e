@@ -1,0 +1,18 @@
+{ "id": "companion.kingmaker.army", "title": "Army (recruitable / fielded)", "type": "list_d100", "dice": "1d100",
+  "note": "Roster of Warfare armies (reference/warfare.md). As a table it answers 'what unit is available / encountered'; as a reference the value carries type & level. Specialized armies unlock only after the PCs win over that faction in hexploration; basics are recruited via a Warfare/Statecraft Kingdom check.",
+  "entries": [
+    {"min": 1,  "max": 12,  "value": "Basic Infantry — Lvl 1; melee line; cheap, sturdy, common"},
+    {"min": 13, "max": 24,  "value": "Basic Cavalry — Lvl 3; mobile shock; strong on open terrain"},
+    {"min": 25, "max": 36,  "value": "Basic Skirmishers — Lvl 5; ranged/harass; good in difficult terrain"},
+    {"min": 37, "max": 46,  "value": "Basic Siege Engines — Lvl 7; battering/artillery; slow, devastating vs fortifications"},
+    {"min": 47, "max": 54,  "value": "Sootscale Warriors — Lvl 3 (kobold; unlock via the Sootscales) — ambush & trap specialists"},
+    {"min": 55, "max": 62,  "value": "Lizardfolk Defenders — Lvl 5 (unlock via the lizardfolk village) — tough swamp defenders"},
+    {"min": 63, "max": 70,  "value": "Nomen Scouts — Lvl 8 (centaur; unlock via the Nomen) — fast mounted scouts"},
+    {"min": 71, "max": 77,  "value": "M'Botuu Frog Riders — Lvl 10 (boggard; unlock via M'Botuu) — amphibious cavalry"},
+    {"min": 78, "max": 83,  "value": "Greengripe Bombardiers — Lvl 7 (goblin; unlock) — alchemical ranged shock"},
+    {"min": 84, "max": 88,  "value": "Tok-Nikrat Scouts — Lvl 10 (unlock) — wetland skirmishers"},
+    {"min": 89, "max": 93,  "value": "Tiger Lord Berserkers — Lvl 12 (unlock via the Tiger Lords) — ferocious melee"},
+    {"min": 94, "max": 96,  "value": "Drelev Mercenaries — Lvl 9 (enemy/merc) — disciplined sellswords under Fort Drelev"},
+    {"min": 97, "max": 98,  "value": "Pitax Tournament Champions — Lvl 14 (enemy) — Irovetti's elite"},
+    {"min": 99, "max": 100, "value": "Tiger Lord Cavalry / wild raiders — Lvl 13 (enemy) — the confederation in arms"}
+  ] }

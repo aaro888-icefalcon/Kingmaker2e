@@ -1,0 +1,10 @@
+{
+  "_doc": "Hybrid hexploration spatial state for the Kingmaker campaign (read/written by the Hexploration world-tick subsystem; see .claude/skills/pathfinder2e/bridge/reference/hexploration.md). Geography is authoritative inside a hex; the usage_ledger leans cluster/seed draws toward un-surfaced content.",
+  "current_hex": "RL1",
+  "current_zone": 1,
+  "explored": [],
+  "revealed_sites": [],
+  "claimed_hexes": [],
+  "usage_ledger": {},
+  "notes": "Campaign not yet begun. Default staging point: Oleg's Trading Post (RL1, Zone 1 Rostland Hinterlands). At Session Zero the PC may instead open in Restov (Ch 1). As hexes are reconnoitered, add them to 'explored', record any keyed site in 'revealed_sites' (format 'HEXCODE:Site Name'), and increment 'usage_ledger' when a hex's content surfaces. Authored hex sites are in adventures/ch02-into-the-wild-hexcrawl-*.md (tagged location:<hexcode>)."
+}

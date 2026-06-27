@@ -1,0 +1,12 @@
+# Raw, verbatim Kingmaker AP source — copyrighted Paizo content (the user supplies their own
+# book). The engine needs only the page-cited atomized digests in the bridge, which ARE committed.
+source/
+
+# Python / OS noise
+__pycache__/
+*.pyc
+.DS_Store
+
+# Scratch
+scratch/
+*.tmp
