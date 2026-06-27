@@ -62,7 +62,9 @@ these.
 
 ## Building/statting a creature on the fly (benchmarks by level)
 When a foe is unstatted, set the expected power via the engine's NPC-Statistics oracle, then
-express it in PF2e terms for the creature's **level** (moderate baselines):
+express it in PF2e terms for the creature's **level**. These rows track the **High** column of the
+Building Creatures table — a credible single foe for a lone hero; for mooks drop toward the
+Moderate/Low columns (−2 to −4 AC/attack/DC and less HP):
 
 | Lvl | AC | HP (mod) | High atk | Best save | Low save | Save DC / Spell DC | Striking dmg |
 |--|--|--|--|--|--|--|--|

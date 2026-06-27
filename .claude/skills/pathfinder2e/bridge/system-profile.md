@@ -17,9 +17,9 @@ in `reference/pf2e-core.md`; PC build in `reference/pf2e-character-creation.md`.
   - **Failure** — total < DC.
   - **Critical Failure** — total ≤ DC − 10, **or** a natural 1 (a nat 1 bumps the result one
     step down).
-  - Nat 20 / nat 1 shift the degree by **one step** after comparing to DC (so a nat 20 that
-    misses by <10 is a Success; a nat 1 that beats the DC is still a Success-downgraded-to-Failure
-    only if it would have been a Success — i.e. one step down).
+  - **Apply nat 20 / nat 1 last:** after comparing the total to the DC, a natural 20 improves the
+    degree by one step and a natural 1 worsens it by one step (so a nat 1 on a roll that beat the DC
+    drops Success→Failure; a nat 20 on a near-miss raises Failure→Success).
 - **Degrees of success?: YES.** This drives the Fate-Question Exceptional mapping in rule-mode:
   Exceptional Yes ≈ Critical Success, Yes ≈ Success, No ≈ Failure, Exceptional No ≈ Critical
   Failure (`dice.py fate <odds> <cf> --mode rule`, used only when no PF2e mechanic applies).
